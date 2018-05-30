@@ -1,0 +1,183 @@
+﻿/* ------------------- Main containers ------------------- */
+
+body {
+	background:red url("../images/sand.jpg") repeat;
+	
+
+}
+
+/* -------------- Top row -------------- */
+
+#top {
+		margin-bottom:20px;
+		background-color:#F2E6C2;
+		padding:10px;
+		border-bottom:3px;
+   
+}
+#bookings {
+		padding-top:5px;
+		padding-bottom:5px;
+}
+
+/* -------------- Navigation -------------- */
+
+.navbar {
+		background:#734636;
+		color:#ffffff;
+		font-size:14px;
+
+}
+
+.navbar-header * {
+		color:#ffffff;
+		border:1px solid #ffffff
+	}
+
+nav a {
+		color:#ffffff;
+
+}
+
+nav a:hover {
+		color:#ffffff;
+		background:#D9BF8F !important;
+}
+
+/* -------------- Big banner image -------------- */
+
+#banner {
+		margin-bottom:20px;
+}
+
+#banner img {
+		border-radius:3px;
+}
+
+/* -------------- Main content area -------------- */
+
+#content {
+		border-radius:3px;
+		background-color:#F2E6C2;
+		margin-bottom:20px;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+		color:#0089af;
+		font-weight:normal;
+		font-family:Fauna one;
+}
+
+/* Text */
+
+p {
+	text-align:justify;
+}
+
+ul {
+	list-style:circle
+	overflow:hidden;
+}
+
+ol {
+	overflow:hidden;
+}
+
+/* Images */
+
+#content .pull-left {
+		margin:10px;
+		margin:10px;
+}
+
+/* Tables */
+
+.table-bordered th, .table-bordered td {
+			border:1px solid #734636 !important;
+}
+
+.table-bordered th {
+			background:#734636;	
+			color:#ffffff;
+}
+
+/* Links */
+
+#content a {
+			color:#734636;
+			font-weight:bold;
+}
+
+#content a:visited {
+			color:#D9BF8F;
+}
+
+#content a:hover {
+			color:#0089af;
+}
+
+/* -------------- Sidebar -------------- */
+ 
+#sidebar { 
+			padding-top:20px;
+} 
+
+.panel-default { 
+			background:#D9BF8F;
+}
+ 
+/* Sidebar image */
+#sidebar-image .panel-body {
+			padding:0px;
+} /* Testimonials */ 
+
+#testimonial .panel-heading {
+			background:#734636;
+			color:#ffffff;
+} 
+#testimonial p {
+			text-align:left;
+}
+/* -------------- Footer -------------- */
+
+#footer {
+			border-radius:3px;
+			background:#734636;
+			padding-top:10px;
+			color:#ffffff;
+			margin-bottom:15px;
+}
+
+#footer a {
+			color:#ffffff;
+}
+
+/* ------------------- Forms ------------------- */
+
+label {
+	
+}
+
+input, select, textarea  {
+			border:1px solid #D9BF8F;
+			margin-top:1px;
+}
+
+.btn-primary { 
+			background:#734636;
+			border-color: #734636 
+} 
+
+.btn-primary:hover { 
+			background: #D9BF8F; 
+			border-color: #734636; 
+			color: #734636; 
+}
+
+/* ------------------- Gallery ------------------- */
+
+#gallery img {
+	margin: 12px;
+}

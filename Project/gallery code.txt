@@ -1,0 +1,19 @@
+Add the following to the head:
+
+	<script src="javascript/jquery-1.10.2.min.js"></script>
+	<script src="javascript/lightbox-2.6.min.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+	
+	<link rel="stylesheet" href="css/lightbox.css" media="screen"/>
+
+In the body, use the following code, repeated for each thumbnail:
+
+<a href="images/image1.jpg" data-lightbox="waverly" title="Caption"><img src="images/image1s.jpg" alt="Caption"/></a>
+
+Explanation:
+
+image1.jpg - the full size image
+image1s.jpg - the small (thumbnail) image
+Caption - the text below the image.  You will find the captions in WEDE5010 / Waverly Guest House / Content / Text / Gallery.docx
+
+data-lightbox="waverly" - the name of the gallery, so that all images are added to the same lightbox (this will be the same for all images in the gallery)
